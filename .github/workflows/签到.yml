@@ -3,8 +3,8 @@ name: 签到
 on:
   push:
     branches: [ master ]
- # schedule:
-   # - cron: 30 04,23 * * ?
+  schedule:
+    - cron: 30 04,23 * * ?
   watch:
     types: started
     
